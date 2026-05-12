@@ -1,6 +1,4 @@
-# =========================
 # SISTEMA DE CINEMA
-# =========================
 
 # Função do menu
 def menu():
@@ -8,7 +6,7 @@ def menu():
     print("1 - Vingadores")
     print("2 - Minecraft: O Filme")
     print("3 - Homem-Aranha")
-    print()
+
 
 
 # Função para escolher filme
@@ -37,7 +35,7 @@ def calcular_valor(preco, quantidade):
 
 # Função de pagamento
 def pagamento():
-    print("\nFormas de pagamento:")
+    print("Formas de pagamento:")
     print("1 - Pix")
     print("2 - Cartão")
     print("3 - Dinheiro")
@@ -59,7 +57,7 @@ def pagamento():
 
 # Função para finalizar compra
 def finalizar_compra(nome, filme, quantidade, total, forma_pagamento):
-    print("\n=== COMPRA FINALIZADA ===")
+    print("=== COMPRA FINALIZADA ===")
     print("Cliente:", nome)
     print("Filme:", filme)
     print("Quantidade de ingressos:", quantidade)
@@ -99,4 +97,4 @@ if filme != None:
     finalizar_compra(nome, filme, quantidade, total, forma_pagamento)
 
 else:
-    print("Encerrando sistema...")
+    print("Encerrando sistema.")
